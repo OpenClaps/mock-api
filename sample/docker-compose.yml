@@ -2,7 +2,7 @@ version: '3'
 services:
   moke-api-service:
     image: openclaps/mock-api
-    container_name: moke-api
+    container_name: moock-api
     volumes:
       - ./app:/app
     ports:
