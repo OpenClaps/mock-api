@@ -1,0 +1,12 @@
+version: '3'
+services:
+  moke-api-service:
+    image: openclaps/mock-api
+    container_name: mock-api
+    volumes:
+      - ./app:/app
+    ports:
+      - 2100:2100
+    environment: 
+      #Refer: https://github.com/typicode/json-server#cli-usage
+      - OPTIONS=--port 2100
