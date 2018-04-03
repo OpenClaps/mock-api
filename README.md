@@ -43,3 +43,7 @@ Sample folder contains bootstarp code to kickstart new mock-api
 - Execute command "docker-compose down"
 
 Load application in the browser - https://localhost:2100/
+
+
+## Reference
+For further reference on how to use this mock josn server - https://github.com/typicode/json-server#cli-usage
